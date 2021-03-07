@@ -1,0 +1,22 @@
+img
+{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	border-radius: 10px;
+}
+img:hover
+{
+	transform:scale(1.1);
+
+}
+@media (max-width:652px)
+{
+img
+{
+	height: 50px;
+	width: 50px;
+	margin:6px;
+}
+}
+

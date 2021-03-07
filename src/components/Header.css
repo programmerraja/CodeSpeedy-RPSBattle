@@ -1,0 +1,16 @@
+.header {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  background-color: white;
+  border:1px solid #3bff41;
+  border-radius: 10px;
+}
+.header p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}

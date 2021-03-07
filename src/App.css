@@ -1,0 +1,30 @@
+body
+{
+	background-color: #3bff41;
+	border: 10px solid white;
+    border-radius: 34px;
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 15px;
+}
+#title
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+#title span
+{
+	font-size: 1.9rem;
+	font-family: 'Lobster', cursive;
+}
+
+@media (max-width:652px)
+{
+body
+{
+	border:15px solid white;
+}
+}

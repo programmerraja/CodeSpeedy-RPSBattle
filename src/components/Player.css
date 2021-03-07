@@ -1,0 +1,33 @@
+.player_battle
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 2rem;
+	width: 100%;
+}
+.scoreboard
+{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.weapon_container
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.player_score,
+.bot_score
+{
+	margin:0  35px
+}
+
+.result
+{
+	display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 1.3rem;
+}
